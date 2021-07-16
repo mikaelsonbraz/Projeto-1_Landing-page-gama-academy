@@ -1,0 +1,273 @@
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #54B689;
+    --main-text-color: #FFF;
+    --border-color: #999;
+    --bio-bg-color: #1E2A3A;
+    --bio-border-color: #293544;
+    --about-bg-color: #111821;
+}
+
+/* containers */
+
+#container {
+    display: flex;
+    flex-direction: column;
+    color: var(--main-text-color);
+}
+
+#info {
+    background-color: green;
+    text-align: center;
+    padding: 26px;
+    border-bottom: 6px solid var(--main-color);
+
+}
+
+#logo {
+    float: left;
+    width: 200%;
+}
+
+#slogan {
+    float: left;
+    font-size: 2.8em;
+    padding: 70px 0 0 55px;
+}
+
+#slogan:hover {
+    color: #35703f;
+    transition: 1.5s;
+}
+
+ul {
+    padding-top: 80px;
+    list-style: none;
+    float: right;
+}
+
+li {
+    display: block;
+    float: left;
+}
+
+ul li a {
+    margin: 10px;
+    font-size: 1.9em;
+
+}
+
+#info img {
+    width: 200px;
+    height: 200px;
+}
+
+#meio {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+}
+
+.divMeio {
+    color: green;
+    text-align: left;
+    border: solid 2px green;
+    margin: 10px;
+    padding: 10px;
+}
+
+.divMeio a {
+    display: block;
+}
+
+.divMeio h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.selectionps:hover {
+    color: white;
+    background-color: blue;
+    transition: 1s;
+    padding: 10px;
+}
+
+.selectionx:hover {
+    color: white;
+    background-color: green;
+    transition: 1s;
+    padding: 10px;
+}
+
+.selectionbign:hover {
+    color: white;
+    background-color: red;
+    transition: 1s;
+    padding: 10px;
+}
+
+.selection:hover {
+    background-color: rgb(33, 250, 4);
+    transition: 1s;
+    color: #0a580a;
+    padding: 10px;
+}
+    
+
+#navbar {
+    flex: 1 1 20%;
+    min-height: 80vh;
+    background-color: #cfcdcd;
+    padding: 30px 12px;
+    border-right: 6px solid var(--main-color);
+}
+
+#produtos {
+    flex: 1 1 80%;
+    flex-direction: row;
+    min-height: 80vh;
+    background-color: #cfcdcd;
+    padding: 40px;
+}
+
+.coluna {
+    width: 30%;
+    float: left;
+    margin: 10px 20px;
+}
+
+.itemps {
+    text-align: center;
+    border: solid 2px blue;
+    padding: 18px 5px 5px 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    height: 450px;
+    color: #35703f;
+}
+
+
+.itemx {
+    text-align: center;
+    border: solid 2px green;
+    padding: 18px 5px 5px 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    height: 450px;
+    color: #35703f;
+}
+
+.itembign {
+    text-align: center;
+    border: solid 2px red;
+    padding: 18px 5px 5px 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    height: 450px;
+    color: #35703f;
+}
+
+.item img {
+    height: 200px;
+    margin: 10px;
+}
+
+.item a h4 {
+    font-size: 2em;
+    padding: 10px 0;
+    color: #000;
+}
+
+.item h5 {
+    font-size: 1.8em;
+}
+
+.item h6 {
+    font-size: 1.5em;
+}
+.item a:hover {
+    color: #FFF;
+    transition: 1.5s;
+}
+
+.comprar h3 {   
+    background-color: black;
+    color: #FFF;
+    padding: 10px 0;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.comprar h3:hover {
+    background-color: rgb(35, 175, 70);
+    transition: 1.5s;
+}
+
+.itemps:hover {
+    background-color: blue;
+    transition: 1s;
+    color: #FFF;
+    padding:5%;
+    border-radius: 15%;
+    border: solid black;
+}
+
+.itemx:hover {
+    background-color: green;
+    transition: 1s;
+    color: #FFF;
+    padding:5%;
+    border-radius: 15%;
+    border: solid black;
+}
+
+.itembign:hover {
+    background-color: red;
+    transition: 1s;
+    color: #fff;
+    padding:5%;
+    border-radius: 15%;
+    border: solid black;
+}
+
+bottom {
+    flex-direction: row;
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 55px;
+    border-top: 6px solid var(--main-color);
+}
+
+bottom input {
+    margin-top: 2px;
+}
+
+#rodape {
+    font-size: 1.7em;
+    color: white
+}
+
+#email {
+	padding: 10px;
+	width: 400px;
+	height: 25px;
+	font-size: 1em;
+}
+
+#cadastrar {
+	background-color: #d67900;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 1em;
+}
